@@ -1,0 +1,35 @@
+{
+  "name": "api-refresh-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "refreshes OpenAPI specs",
+  "author": "Anton Lilja",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.7",
+    "probot": "^12.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.0.0",
+    "nock": "^13.0.5",
+    "smee-client": "^1.2.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
